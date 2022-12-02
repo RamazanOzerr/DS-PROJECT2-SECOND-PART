@@ -25,7 +25,7 @@ public class PriorityQueue {
         int temp = queList.get(0);
         int index = 0;
         for(int i = 0; i < queList.size();i++){
-            if(queList.get(i) > temp){
+            if(queList.get(i) < temp){
                 temp = queList.get(i);
                 index = i;
             }

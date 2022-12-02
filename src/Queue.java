@@ -55,11 +55,5 @@ public class Queue {
     {
         return nItems;
     }
-
-    public void print(){
-        for(int i : queArray){
-            System.out.println(i);
-        }
-    }
 }
 
